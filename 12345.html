@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0;">
+    <title>Four Cards Layout</title>
+    <style>
+        
+            body {
+                    font-family: Arial, sans-serif;
+                    background-color: #97ecff;
+                    padding: 5px;
+
+}
+
+.card-container {
+                    display: flex;
+                    background-color: #f1f1f1;
+                    flex-direction: row;
+                    gap: 20px; /* Space between cards */ 
+}
+
+.card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 100%;/* Adjust to fit your needs */
+            width: 100%;
+            margin:10px 10px 10px 10px;
+}
+
+.card-image {
+                width: 25px;
+                height: 25px;
+                display: block;
+}
+
+.card-content {
+                    padding: 15px;
+}
+
+.card-title {
+                margin: 0;
+                font-size: 1.5em;
+                color: #333;
+}
+
+.card-description {
+                        margin: 10px 0 0 0;
+                        font-size: small;
+                        color: #2f2e2e;
+}
+
+
+.sasi{
+        display: flex;
+        float: left;
+        border-radius: 100px;
+        height:45px; width:45px;
+        align-items: flex-start;
+        margin: 25px 5px 0 5px;
+}
+.vishnu{
+            font-style: normal;
+            font-size: small;
+            text-align: center;
+            color: #797575;
+            display: flex;
+            margin: 25px 5px 0 5px;
+}
+.heading h1{
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    width: max-content;
+    height: max-content;
+    border-radius: 10px;
+    margin: 10px 25px 10px 400px;
+    
+}
+.stanly{
+    font-style: normal;
+            font-size: small;
+            text-align: left;
+            color: #797575;
+}
+    </style>
+</head>
+<body>
+    <div class="heading"><h1>See what others are achieving through learning</h1></div> 
+    <div class="card-container">
+        <div class="card">&nbsp;
+            
+            <div class="card-content">
+                <h2 class="card-title"><img src="https://i.sstatic.net/Fx8oL.png" alt="double-quotes" class="card-image"></h2>
+                <p class="card-description">Udemy was rated the <b>most popular<br>online course or certification program</b><br>for learning how to <br>code according to StackOverflow’s 2023 Developer survey.</p>
+               <img class="vishnu" src="https://cms-images.udemycdn.com/96883mtakkm8/2PBcNgsQa3SvYWklkiN27r/5b8707cc79c8cae5774d5eb3b88b4001/logo_stackoverflow.svg">
+               <p class="stanly">37,076 responses collected</p>
+            </div>
+        </div>
+        <div class="card">&nbsp;
+            
+            <div class="card-content">
+                <h2 class="card-title"><img src="https://i.sstatic.net/Fx8oL.png" alt="double-quotes" class="card-image"></h2>
+                <p class="card-description">Udemy was truly <b>a game-changer and a<br>great guide</b> for me as we brought<br>Dimensional to life.</p>
+                 <img class="sasi" src="https://cms-images.udemycdn.com/96883mtakkm8/1Djz6c0gZLaCG5SQS3PgUY/54b6fb8c85d8da01da95cbb94fa6335f/Alvin_Lim.jpeg">
+                <p class="vishnu">Alvin Lim<br>Tecnical co-founder,CTO at<br>dimensional</p>
+            </div>
+        </div>
+        <div class="card">&nbsp;
+            
+            <div class="card-content">
+                <h2 class="card-title"><img src="https://i.sstatic.net/Fx8oL.png" alt="double-quotes" class="card-image"></h2>
+                <p class="card-description">Udemy gives you the ability to be<br>resistent. I learned exactly what I<br>needed to know in the real world. It<br>helped me sell myself to <b>get a new role.</b></p>
+                <img class="sasi" src="https://cms-images.udemycdn.com/96883mtakkm8/6dT7xusLHYoOUizXeVqgUk/4317f63fe25b2e07ad8c70cda641014b/William_A_Wachlin.jpeg">
+                <p class="vishnu">William.A.Wachlin<br>Partner Acount Manager at Amazon<br>Web services</p>
+            </div>
+        </div>
+        <div class="card">&nbsp;
+            
+            <div class="card-content">
+                <h2 class="card-title"><img src="https://i.sstatic.net/Fx8oL.png" alt="double-quotes" class="card-image"></h2>
+                <p class="card-description">With Udemy Business employees were<br>able to marry the two together,<br>technology and consultant soft skills... to<br>help <b>drive their careers forward.</b></p>
+                <img class="sasi" src="https://cms-images.udemycdn.com/96883mtakkm8/4w9dYD4F64ibQwsaAB01Z4/c4610e9b1ac65589d8b1374ad10714e2/Ian_Stevens.png">
+                <p class="vishnu">Ian Stevens<br>head of capability development<br>North America at publicist sapient</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
